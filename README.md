@@ -64,7 +64,7 @@ npm run serve
 
 ## 💥 기술 스택
 
-![Untitled 2](https://user-images.githubusercontent.com/40704078/205663747-075b5481-0c59-49bf-aeee-0c5022204338.png)
+ <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
 
 ## 📡 사용한 API
 <details>
