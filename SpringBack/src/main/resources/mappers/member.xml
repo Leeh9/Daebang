@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.ssafy.vue.model.mapper.MemberMapper">
+
+	<select id="login" parameterType="memberDto" resultType="memberDto">
+		select username, userid, email
+		from daebang_member
+		where userid = #{userid} and userpwd = #{userpwd}
+	</select>
+	
+	<select id="userInfo" parameterType="string" resultType="memberDto">
+		select username, userid, email, joindate
+		from daebang_member
+		where userid = #{userid}
+	</select>
+	
+	<select id="getRefreshToken" parameterType="string" resultType="string">
+		select token
+		from daebang_member
+		where userid = #{userid}
+	</select>
+	
+	<update id="saveRefreshToken" parameterType="map">
+		update daebang_member
+		set token = #{token}
+		where userid = #{userid}
+	</update>
+	
+	<update id="deleteRefreshToken" parameterType="map">
+		update daebang_member
+		set token = #{token, jdbcType=VARCHAR}
+		where userid = #{userid}
+	</update>
+	
+	<insert id="regist" parameterType="memberDto">
+		insert into daebang_member (userid, username, userpwd, email, joindate, token)
+		values (#{userid},#{username}, #{userpwd}, #{email}, now(), null)
+	</insert>
+	
+	<update id="modify" parameterType="memberDto">
+		update daebang_member
+		set username = #{username}, userpwd = #{userpwd}, email = #{email}
+		where userid = #{userid}
+	</update>
+	
+	<delete id="delete" parameterType="string">
+		delete from daebang_member
+		where userid = #{userid}
+	</delete>
+</mapper>
