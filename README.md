@@ -11,15 +11,25 @@
 
 ### ✔️ **프로젝트 설명**
 
- Backend는 SpringBoot , Frontend는 Vue로 구현하고 DB를 구축하여 데이터를 관리하는 프로젝트이다.
+![슬라이드1](https://user-images.githubusercontent.com/40704078/206139865-303c6b0d-9b51-4808-b717-118b193d231e.PNG)
 
-MVC + MVVM 기반의 웹 프로젝트를 설계하고 구현하며, Kakao Map API와 공공 데이터 포털을 통해 대전지역의 전,월세 데이터를 가공하여 기능을 제공한다.
+![슬라이드4](https://user-images.githubusercontent.com/40704078/206140000-fc1a3211-de35-4c7e-8f97-cee89e8674b5.PNG)
+
+![슬라이드7](https://user-images.githubusercontent.com/40704078/206140220-13fb49ee-1684-4351-b806-441090482a77.PNG)
+
+```
+대방은 Backend는 SpringBoot , Frontend는 Vue로 구현하고 DB를 구축하여 데이터를 관리하는 프로젝트이다.
+
+MVC + MVVM 기반의 웹 프로젝트를 설계하고 구현하며, Kakao Map API와 공공 데이터 포털을 통해 
+대전지역의 전,월세 데이터를 가공하여 기능을 제공한다.
 
 사용자는 원하는 지역을 검색하고 관심 지역에 등록하여 추천 시스템을 이용할 수 있다.
 
-사용자가 선택한 지역의 전,월세 자료를 테이블 형태로 보여주며, 해당하는 집의 이름 클릭 시 상세정보와 반경 1KM 지역 이내의 상권 위치를 확인할 수 있다.
+사용자가 선택한 지역의 전,월세 자료를 테이블 형태로 보여주며, 해당하는 집의 이름 클릭 시 
+상세정보와 반경 1KM 지역 이내의 상권 위치를 확인할 수 있다.
 
 편의 기능으로 교통, 날씨, 관광지 정보를 제공한다.
+```
 
 ### ✔️ **실행**
 
@@ -66,13 +76,13 @@ npm run serve
 
  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white"> <img src="https://img.shields.io/badge/vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white"> <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/apache tomcat-F8DC75?style=for-the-badge&logo=apachetomcat&logoColor=white">
 
-## 📡 사용한 API
+## 📡 사용한 Open API
+![슬라이드6](https://user-images.githubusercontent.com/40704078/206140383-991422e2-4292-489e-8110-9611f3e6ea54.PNG)
 <details>
 <summary>
 API
 </summary>
 
-![Untitled 3](https://user-images.githubusercontent.com/40704078/205664904-a168e0df-cb8c-43ce-8250-2167369ba426.png)
 ![%EB%8D%B0%EC%9D%B4%ED%84%B03](https://user-images.githubusercontent.com/40704078/205664753-ebfe4e32-006e-4e52-a1eb-5e063921691f.png)
 ![%EB%8D%B0%EC%9D%B4%ED%84%B01](https://user-images.githubusercontent.com/40704078/205664762-a809f512-ea0e-4983-a535-ff7efe86ecd0.png)
 ![%EB%8D%B0%EC%9D%B4%ED%84%B02](https://user-images.githubusercontent.com/40704078/205664763-ebd9427c-fd79-45cb-b972-0d45791ff3eb.png)
@@ -327,6 +337,9 @@ UseCase Diagram
 ![wishscore-modify-success](https://user-images.githubusercontent.com/40704078/205668775-c720939d-8855-4402-882c-538fcbdcfce2.png)
     
 </details>
+
+## 🎉 **기대효과**
+![슬라이드10](https://user-images.githubusercontent.com/40704078/206141072-896fbcce-208e-4dea-b2e4-a194a1f6d0dd.PNG)
 
 ## 🚢 **팀원**
 
