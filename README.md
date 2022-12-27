@@ -1,4 +1,6 @@
 ### 🥇 SSAFY 1학기 관통 프로젝트 최우수상
+### 📺 시연영상
+https://youtu.be/DrmTGF6a1N8
 
 # 📢 프로젝트 소개
 
